@@ -4,6 +4,9 @@
     background-color: nos permite modificar el color del fondo de la carta 
     color: nos permite cambiar el color del texto de la carta
 */
+  .body{
+       background-image: url("/ImgeIEBLA/Fondo.png");
+    }
 
 .image{
     border-radius: 40%;
