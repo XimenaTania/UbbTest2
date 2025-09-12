@@ -8,9 +8,25 @@
   <link rel="stylesheet" href="./Estilos/globales.css">
 
   <style>
-    .body{
-       background-image: url("ImgeIEBLA/Fondo.png");
-    }
+ body {
+    font-family: 'Roboto', sans-serif;
+   
+    background-size: 100vw;
+    background-attachment: fixed;
+     /* Fondo con imagen */
+     
+    background-image: url("ImgeIEBLA/Fondo.png");
+   
+    background-size: cover;      /* Ajusta la imagen al tamaño de la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat;/* Evita que se repita */
+    background-attachment: fixed;/* Hace que la imagen quede estática al hacer scroll */
+
+    /* fallback para móviles (algunos navegadores no soportan fixed bien en mobile) */
+    min-height: 100vh;
+
+    
+}
 
     /* Encabezado */
     .hero {
