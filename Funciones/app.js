@@ -20,6 +20,7 @@ window.onload = () => {
           </li>
           <li><a href="Manuales.html">Manual</a></li>
           <li><a href="IglesiasLista.html">Encuentra tu Iglesia</a></li>
+          <li><a href="Pastores.html">Encuentra tu pastor</a></li>
         </ul>
       </nav>
 
