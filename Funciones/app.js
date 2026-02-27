@@ -12,15 +12,15 @@ window.onload = () => {
           <li><a href="index.html">Inicio</a></li>
           <li><a href="Historia.html">Historia</a></li>
           <li><a href="Uniones.html">Uniones</a></li>
-          <li><a href="Asociaciones.html">Asociaciones regionales</a></li>
+          <li><a href="Asociaciones.html">Asociaciones </a></li>
           <li><a href="Ministerio.html">Ministerio</a></li>
           <li><a href="Instituciones.html">Instituciones</a></li>
           <li><a href="Socios.html">Socios</a></li>
            
           </li>
           <li><a href="Manuales.html">Manual</a></li>
-          <li><a href="IglesiasLista.html">Encuentra tu Iglesia</a></li>
-          <li><a href="Pastores.html">Encuentra tu pastor</a></li>
+          <li><a href="IglesiasLista.html">Iglesias Afiliadas</a></li>
+          <li><a href="Pastores.html">Pastor Afiliados</a></li>
         </ul>
       </nav>
 
