@@ -167,7 +167,7 @@ body {
       const filter = input.value.toLowerCase();
       let visible = 0;
       for (let i = 1; i < rows.length; i++) {
-        const td = rows[i].getElementsByTagName("td")[1]; // columna Iglesia
+        const td = rows[i].getElementsByTagName("td")[0]; // columna Iglesia
         if (td) {
           const txtValue = td.textContent || td.innerText;
           if (txtValue.toLowerCase().indexOf(filter) > -1) {
